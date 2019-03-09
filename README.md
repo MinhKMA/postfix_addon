@@ -1,2 +1,2 @@
-# postfix_addon
+# Postfix Add-on Software
 something to do something
