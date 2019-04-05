@@ -173,10 +173,11 @@ Moving /tmp/zmsetup.20190405-035429.log to /opt/zimbra/log
 Configuration complete - press return to exit
 ```
 
-- Kiểm tra status các services
+- Mở firewalld
 
 ```
-su zimbra
+firewall-cmd --permanent --add-port={25,80,110,143,443,465,587,993,995,5222,5223,9071,7071}/tcp
+firewall-cmd --reload
 ```
 
 - Truy cập vào địa chỉ 
