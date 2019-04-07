@@ -6,6 +6,16 @@
     + Domain name: efa.supportdao.com
     + CentOS7
 
+- Chuẩn bị:
+
+```
+curl -O https://dl.efa-project.org/build/4/build.bash
+chmod +x build.bash
+./build.bash testing
+```
+
+- Sau khi khởi động lại. SSH vào server như bình thường.
+
 ```
 --------------------------------------------------------------
 ---        Welcome to the eFa Initial Configuration        ---
